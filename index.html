@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style/normalize.css">
+  <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+  
+  <div class="bg-yellow">
+   <div class="container">
+
+    <header>
+      <h2 class="title">Account settings</h2>
+      <img src="./img/close.png" alt="close" width="15" height="15">
+    </header>
+
+    <main>
+
+      <img class="avatar" src="./img/avatar.jpg" alt="avatar" width="60" height="60">
+
+      <form action="#">
+        <label for="username">username</label>
+        <input type="text" placeholder="Enter your username" name="username" id="username" required>
+      
+       <div class="name">
+
+        <div class="fname">
+          <label for="first-name">first name</label>
+        <input type="text" placeholder="Enter your first name" name="first_nmae" id="first-name" required>
+        </div>
+
+        <div class="lname">
+          <label for="#">last name</label>
+        <input type="text" placeholder="Enter your last name" name="last_name" id="last-name" required>
+        </div>
+
+       </div>
+
+        <label for="email">email</label>
+        <input type="email" placeholder="Enter your email" name="email" id="email" required>
+
+        <label for="bio">bio  </label>
+        <textarea name="bio" id="bio" cols="60" rows="5" placeholder="Tell us about yourself"></textarea>
+      </form>
+
+    </main>
+
+    <footer>
+      <ul class="list-wrapper">
+        <li class="list-item"><a href="#">Cancel</a></li>
+        <li class="list-item"><a href="#">Save</a></li>
+      </ul>
+    </footer>
+
+   </div>
+  </div>
+  
+</body>
+</html>
